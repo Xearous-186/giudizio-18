@@ -1,0 +1,211 @@
+:root {
+    --testo: #000000;
+    --evidenza: rgb(0, 0, 0);
+    background-color: #ffffff;
+    --sfondo-footer: #dbdada;
+    background-color: #3CC1FF;
+    background-color: #ff9a9e;
+}
+
+*{
+ box-sizing: border-box;   
+}
+
+body {
+    font-size: 10px;
+    line-height: 1.5;
+    font-family: "Chela One", system-ui;
+    margin: 0;
+    justify-content: center;  
+    align-items: center;     
+        margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        to bottom, 
+        #2b91e3 0%,
+        #e59089 45%,   
+        #b13eb0 80%,   
+        #6b2275 100%   
+    ) 
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 1);
+    border-radius: 400px;
+}
+
+header .contenitore,
+footer .contenitore {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 3rem;
+  padding: 30px;
+  width: auto;
+  height: auto;
+}
+
+header p {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section.apertura {
+    background-color: #ffffff;
+    padding: 30px;
+    font-size: 15px;
+}
+
+section.info {
+    background-color: #3CC1FF;
+    padding: 15px 6px;
+}
+
+section.info h1 {
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    font-size: 70px;
+}
+
+.card h2 .card p {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+h2 {
+    max-width: max-content;
+    margin: 0 auto;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.card {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(3, auto);
+    margin: auto;
+    align-items: center;
+    margin-left: 3%;
+}
+
+section.in-evidenza {
+    justify-content: center;
+    padding: 20px;
+    min-height: 40vh;
+
+.testo1 {
+    margin-top: 5%;
+}
+}
+
+.testo1 {
+    margin-top: 5%;
+}
+
+.card p {
+    font-size: 24px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 1);
+    border: solid;
+    padding: 10px;
+    max-width: 600px;
+}
+
+.casella1 {
+    font-size: 24px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 1);
+    border: solid;
+    padding: 30px;
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.casella3 {
+    font-size: 24px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 1);
+    border: solid;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.casella4 p {
+    font-size: 24px;
+    background-color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 1);
+    border: solid;
+    margin-top: 10%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.casella4 img {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+footer .chiusura {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 3rem;
+  padding: 30px;
+  background-color: #e1e1e1;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  
+.card {
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   margin-right: 3%;              
+}
+
+.card p {
+   font-size: 12px;
+   text-align: center; 
+}
+
+.casella1, .casella3, .casella4 p{
+    font-size: 12px;
+    text-align: center; 
+}
+
+section.apertura {
+    padding: 10px;
+    font-size: 10px;
+}
+
+section.info h1 {
+    font-size: 18px;
+}
+
+footer .chiusura {
+    font-size: 12px;
+}
+}
